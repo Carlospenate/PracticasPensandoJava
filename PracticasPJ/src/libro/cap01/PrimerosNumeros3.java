@@ -2,7 +2,7 @@ package libro.cap01;
 
 import java.util.Scanner;
 
-public class PrimerosNumeros2 {
+public class PrimerosNumeros3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -11,14 +11,12 @@ public class PrimerosNumeros2 {
 		Scanner scanner = new Scanner(System.in);
 		int n = scanner.nextInt();
 		
-		int i = 1;
+		for(int i = 1; i<n; i++)
 		
-		do
 		{
 			System.out.println(i);
-			i++;
 		}
-		while(i <= n);
+		
 	}
 
 }
