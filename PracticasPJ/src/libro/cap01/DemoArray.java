@@ -9,10 +9,11 @@ public class DemoArray {
 	int arr[] = new int[10];
 	
 	//el scanner para leer por teclado...
+	@SuppressWarnings("resource")
 	Scanner scanner = new Scanner(System.in);
 	
 	//leo el primer valor
-	System.out.print("Ingrese un valor (0 => 200fin) : ");
+	System.out.print("Ingrese un valor (0 => 200 fin) : ");
 	int v = scanner.nextInt();
 	
 	int i= 0;
